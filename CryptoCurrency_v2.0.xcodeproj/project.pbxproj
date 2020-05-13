@@ -7,26 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F3434F62468047E003624DE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3434F52468047E003624DE /* NetworkManager.swift */; };
+		0F3434F924680DEA003624DE /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3434F824680DEA003624DE /* Coin.swift */; };
+		0F6C9E2C2469E504001B828B /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6C9E2B2469E504001B828B /* UIViewExtension.swift */; };
+		0F6C9E2E2469E656001B828B /* SettingsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F6C9E2D2469E656001B828B /* SettingsViewController.storyboard */; };
+		0F6C9E302469E67F001B828B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6C9E2F2469E67F001B828B /* SettingsViewController.swift */; };
+		0F997598246B217F00AA16B3 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F997597246B217F00AA16B3 /* SettingCell.swift */; };
+		0F99759A246B2AB600AA16B3 /* TSYMPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F997599246B2AB600AA16B3 /* TSYMPickerViewController.swift */; };
+		0F99759C246B2ADF00AA16B3 /* TSYMPickerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F99759B246B2ADF00AA16B3 /* TSYMPickerViewController.storyboard */; };
+		0F99759E246B2B5500AA16B3 /* TSYMCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F99759D246B2B5500AA16B3 /* TSYMCell.swift */; };
+		0F9975A0246C73C400AA16B3 /* ChartsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F99759F246C73C400AA16B3 /* ChartsViewController.storyboard */; };
+		0F9975A2246C73EA00AA16B3 /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9975A1246C73EA00AA16B3 /* ChartsViewController.swift */; };
+		0F9975A4246C781500AA16B3 /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9975A3246C781500AA16B3 /* ChartData.swift */; };
+		0F9975A6246C7EFD00AA16B3 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9975A5246C7EFC00AA16B3 /* DateExtension.swift */; };
+		0F9975A8246C828B00AA16B3 /* ExchangeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F9975A7246C828B00AA16B3 /* ExchangeViewController.storyboard */; };
+		0F9975AA246C829A00AA16B3 /* ExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9975A9246C829A00AA16B3 /* ExchangeViewController.swift */; };
 		0FE3E2A424673C89006DBECD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE3E2A324673C89006DBECD /* AppDelegate.swift */; };
-		0FE3E2A624673C89006DBECD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE3E2A524673C89006DBECD /* SceneDelegate.swift */; };
-		0FE3E2A824673C89006DBECD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE3E2A724673C89006DBECD /* ViewController.swift */; };
-		0FE3E2AB24673C89006DBECD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3E2A924673C89006DBECD /* Main.storyboard */; };
 		0FE3E2AD24673C8F006DBECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3E2AC24673C8F006DBECD /* Assets.xcassets */; };
 		0FE3E2B024673C8F006DBECD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3E2AE24673C8F006DBECD /* LaunchScreen.storyboard */; };
 		0FE3E2B824673F4B006DBECD /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3E2B724673F4B006DBECD /* .gitignore */; };
+		0FE3E2BE246740CF006DBECD /* CurrenciesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FE3E2BD246740CF006DBECD /* CurrenciesViewController.storyboard */; };
+		0FE3E2C0246740DE006DBECD /* CurrenciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE3E2BF246740DE006DBECD /* CurrenciesViewController.swift */; };
+		0FE3E2C224674274006DBECD /* CurrencyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE3E2C124674274006DBECD /* CurrencyCell.swift */; };
+		0FE3E2C6246743EE006DBECD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE3E2C5246743EE006DBECD /* Constants.swift */; };
 		A63E6F42FD237B0A9F3AD2D8 /* libPods-CryptoCurrency_v2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 564C945717C7D85F20726942 /* libPods-CryptoCurrency_v2.0.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F3434F52468047E003624DE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		0F3434F824680DEA003624DE /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		0F6C9E2B2469E504001B828B /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		0F6C9E2D2469E656001B828B /* SettingsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingsViewController.storyboard; sourceTree = "<group>"; };
+		0F6C9E2F2469E67F001B828B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0F997597246B217F00AA16B3 /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		0F997599246B2AB600AA16B3 /* TSYMPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSYMPickerViewController.swift; sourceTree = "<group>"; };
+		0F99759B246B2ADF00AA16B3 /* TSYMPickerViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TSYMPickerViewController.storyboard; sourceTree = "<group>"; };
+		0F99759D246B2B5500AA16B3 /* TSYMCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSYMCell.swift; sourceTree = "<group>"; };
+		0F99759F246C73C400AA16B3 /* ChartsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChartsViewController.storyboard; sourceTree = "<group>"; };
+		0F9975A1246C73EA00AA16B3 /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
+		0F9975A3246C781500AA16B3 /* ChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartData.swift; sourceTree = "<group>"; };
+		0F9975A5246C7EFC00AA16B3 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		0F9975A7246C828B00AA16B3 /* ExchangeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExchangeViewController.storyboard; sourceTree = "<group>"; };
+		0F9975A9246C829A00AA16B3 /* ExchangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeViewController.swift; sourceTree = "<group>"; };
 		0FE3E2A024673C89006DBECD /* CryptoCurrency_v2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoCurrency_v2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FE3E2A324673C89006DBECD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0FE3E2A524673C89006DBECD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0FE3E2A724673C89006DBECD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0FE3E2AA24673C89006DBECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FE3E2AC24673C8F006DBECD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FE3E2AF24673C8F006DBECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FE3E2B124673C8F006DBECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FE3E2B724673F4B006DBECD /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0FE3E2BD246740CF006DBECD /* CurrenciesViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CurrenciesViewController.storyboard; sourceTree = "<group>"; };
+		0FE3E2BF246740DE006DBECD /* CurrenciesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesViewController.swift; sourceTree = "<group>"; };
+		0FE3E2C124674274006DBECD /* CurrencyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCell.swift; sourceTree = "<group>"; };
+		0FE3E2C5246743EE006DBECD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		564C945717C7D85F20726942 /* libPods-CryptoCurrency_v2.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CryptoCurrency_v2.0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91DB522A933111FD6B46BB73 /* Pods-CryptoCurrency_v2.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoCurrency_v2.0.release.xcconfig"; path = "Target Support Files/Pods-CryptoCurrency_v2.0/Pods-CryptoCurrency_v2.0.release.xcconfig"; sourceTree = "<group>"; };
 		FA498DFA0748D487D3884027 /* Pods-CryptoCurrency_v2.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoCurrency_v2.0.debug.xcconfig"; path = "Target Support Files/Pods-CryptoCurrency_v2.0/Pods-CryptoCurrency_v2.0.debug.xcconfig"; sourceTree = "<group>"; };
@@ -44,6 +76,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F3434F724680DDD003624DE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0F3434F824680DEA003624DE /* Coin.swift */,
+				0F9975A3246C781500AA16B3 /* ChartData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0F6C9E2A2469E4D2001B828B /* ClassExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				0F6C9E2B2469E504001B828B /* UIViewExtension.swift */,
+				0F9975A5246C7EFC00AA16B3 /* DateExtension.swift */,
+			);
+			path = ClassExtensions;
+			sourceTree = "<group>";
+		};
 		0FE3E29724673C89006DBECD = {
 			isa = PBXGroup;
 			children = (
@@ -67,14 +117,76 @@
 			isa = PBXGroup;
 			children = (
 				0FE3E2A324673C89006DBECD /* AppDelegate.swift */,
-				0FE3E2A524673C89006DBECD /* SceneDelegate.swift */,
-				0FE3E2A724673C89006DBECD /* ViewController.swift */,
-				0FE3E2A924673C89006DBECD /* Main.storyboard */,
+				0F6C9E2A2469E4D2001B828B /* ClassExtensions */,
+				0F3434F724680DDD003624DE /* Models */,
+				0FE3E2C4246743E2006DBECD /* Constants */,
+				0FE3E2BC246740B5006DBECD /* NetworkManager */,
+				0FE3E2BB246740AF006DBECD /* Views */,
+				0FE3E2BA246740A8006DBECD /* ViewControllers */,
+				0FE3E2B9246740A0006DBECD /* Storyboards */,
 				0FE3E2AC24673C8F006DBECD /* Assets.xcassets */,
 				0FE3E2AE24673C8F006DBECD /* LaunchScreen.storyboard */,
 				0FE3E2B124673C8F006DBECD /* Info.plist */,
 			);
 			path = CryptoCurrency_v2.0;
+			sourceTree = "<group>";
+		};
+		0FE3E2B9246740A0006DBECD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0FE3E2BD246740CF006DBECD /* CurrenciesViewController.storyboard */,
+				0F6C9E2D2469E656001B828B /* SettingsViewController.storyboard */,
+				0F99759B246B2ADF00AA16B3 /* TSYMPickerViewController.storyboard */,
+				0F99759F246C73C400AA16B3 /* ChartsViewController.storyboard */,
+				0F9975A7246C828B00AA16B3 /* ExchangeViewController.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0FE3E2BA246740A8006DBECD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0FE3E2BF246740DE006DBECD /* CurrenciesViewController.swift */,
+				0F6C9E2F2469E67F001B828B /* SettingsViewController.swift */,
+				0F997599246B2AB600AA16B3 /* TSYMPickerViewController.swift */,
+				0F9975A1246C73EA00AA16B3 /* ChartsViewController.swift */,
+				0F9975A9246C829A00AA16B3 /* ExchangeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0FE3E2BB246740AF006DBECD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0FE3E2C324674277006DBECD /* TableViewCell's */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0FE3E2BC246740B5006DBECD /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				0F3434F52468047E003624DE /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		0FE3E2C324674277006DBECD /* TableViewCell's */ = {
+			isa = PBXGroup;
+			children = (
+				0FE3E2C124674274006DBECD /* CurrencyCell.swift */,
+				0F997597246B217F00AA16B3 /* SettingCell.swift */,
+				0F99759D246B2B5500AA16B3 /* TSYMCell.swift */,
+			);
+			path = "TableViewCell's";
+			sourceTree = "<group>";
+		};
+		0FE3E2C4246743E2006DBECD /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				0FE3E2C5246743EE006DBECD /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		11A23C5CCF44411AF93E7C7A /* Pods */ = {
@@ -83,7 +195,6 @@
 				FA498DFA0748D487D3884027 /* Pods-CryptoCurrency_v2.0.debug.xcconfig */,
 				91DB522A933111FD6B46BB73 /* Pods-CryptoCurrency_v2.0.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -154,10 +265,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F99759C246B2ADF00AA16B3 /* TSYMPickerViewController.storyboard in Resources */,
+				0FE3E2BE246740CF006DBECD /* CurrenciesViewController.storyboard in Resources */,
 				0FE3E2B824673F4B006DBECD /* .gitignore in Resources */,
+				0F9975A0246C73C400AA16B3 /* ChartsViewController.storyboard in Resources */,
+				0F6C9E2E2469E656001B828B /* SettingsViewController.storyboard in Resources */,
 				0FE3E2B024673C8F006DBECD /* LaunchScreen.storyboard in Resources */,
+				0F9975A8246C828B00AA16B3 /* ExchangeViewController.storyboard in Resources */,
 				0FE3E2AD24673C8F006DBECD /* Assets.xcassets in Resources */,
-				0FE3E2AB24673C89006DBECD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,23 +308,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FE3E2A824673C89006DBECD /* ViewController.swift in Sources */,
+				0F3434F924680DEA003624DE /* Coin.swift in Sources */,
+				0F9975AA246C829A00AA16B3 /* ExchangeViewController.swift in Sources */,
+				0F9975A6246C7EFD00AA16B3 /* DateExtension.swift in Sources */,
+				0FE3E2C224674274006DBECD /* CurrencyCell.swift in Sources */,
 				0FE3E2A424673C89006DBECD /* AppDelegate.swift in Sources */,
-				0FE3E2A624673C89006DBECD /* SceneDelegate.swift in Sources */,
+				0F99759E246B2B5500AA16B3 /* TSYMCell.swift in Sources */,
+				0F3434F62468047E003624DE /* NetworkManager.swift in Sources */,
+				0F6C9E2C2469E504001B828B /* UIViewExtension.swift in Sources */,
+				0F99759A246B2AB600AA16B3 /* TSYMPickerViewController.swift in Sources */,
+				0FE3E2C0246740DE006DBECD /* CurrenciesViewController.swift in Sources */,
+				0FE3E2C6246743EE006DBECD /* Constants.swift in Sources */,
+				0F9975A2246C73EA00AA16B3 /* ChartsViewController.swift in Sources */,
+				0F6C9E302469E67F001B828B /* SettingsViewController.swift in Sources */,
+				0F997598246B217F00AA16B3 /* SettingCell.swift in Sources */,
+				0F9975A4246C781500AA16B3 /* ChartData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0FE3E2A924673C89006DBECD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0FE3E2AA24673C89006DBECD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0FE3E2AE24673C8F006DBECD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -343,6 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3TG9F8VMYJ;
 				INFOPLIST_FILE = CryptoCurrency_v2.0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,6 +482,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3TG9F8VMYJ;
 				INFOPLIST_FILE = CryptoCurrency_v2.0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

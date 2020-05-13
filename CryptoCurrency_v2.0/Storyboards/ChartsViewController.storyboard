@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uhu-Cv-8Nw">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Charts View Controller-->
+        <scene sceneID="0qF-tT-e4s">
+            <objects>
+                <viewController id="uhu-Cv-8Nw" customClass="ChartsViewController" customModule="CryptoCurrency_v2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mjn-Mr-hiT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oQp-jE-lc4" customClass="LineChartView" customModule="Charts">
+                                <rect key="frame" x="0.0" y="95.5" width="414" height="207"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="oQp-jE-lc4" secondAttribute="height" multiplier="2:1" id="Lk5-pc-snW"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Charts" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cuj-8D-5WN">
+                                <rect key="frame" x="10" y="54" width="394" height="31.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <color key="textColor" name="mainBlueColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ETP-3V-XxL" firstAttribute="trailing" secondItem="oQp-jE-lc4" secondAttribute="trailing" id="6Eb-dC-97N"/>
+                            <constraint firstItem="cuj-8D-5WN" firstAttribute="leading" secondItem="ETP-3V-XxL" secondAttribute="leading" constant="10" id="AHA-uS-VSD"/>
+                            <constraint firstItem="cuj-8D-5WN" firstAttribute="top" secondItem="ETP-3V-XxL" secondAttribute="top" constant="10" id="K0x-JQ-6JI"/>
+                            <constraint firstItem="ETP-3V-XxL" firstAttribute="trailing" secondItem="cuj-8D-5WN" secondAttribute="trailing" constant="10" id="Ods-by-TfN"/>
+                            <constraint firstItem="oQp-jE-lc4" firstAttribute="top" secondItem="cuj-8D-5WN" secondAttribute="bottom" constant="10" id="fpn-aP-k28"/>
+                            <constraint firstItem="oQp-jE-lc4" firstAttribute="leading" secondItem="ETP-3V-XxL" secondAttribute="leading" id="rDS-bY-W9G"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ETP-3V-XxL"/>
+                    </view>
+                    <connections>
+                        <outlet property="firstChart" destination="oQp-jE-lc4" id="9O6-62-er3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KmD-WL-jcF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-87" y="183"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="mainBlueColor">
+            <color red="0.37254901960784315" green="0.32941176470588235" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

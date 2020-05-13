@@ -9,5 +9,8 @@ target 'CryptoCurrency_v2.0' do
   # Pods for CryptoCurrency_v2.0
   pod 'Alamofire', '~> 5.1'
   pod 'SwiftyJSON', '~> 4.0'
+  pod 'SDWebImage', '~> 5.0'
+  pod 'Charts'
+  pod 'IQKeyboardManagerSwift'
 
 end
